@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Özel Günler 💝</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>💝 Özel Günler</h1>
+      <p>Önemli günlerine geri sayım yap, anılarını sakla.</p>
+    </header>
+
+    <form id="form" class="form">
+      <input type="text" id="baslik" placeholder="Örn: Yıldönümümüz" required>
+      <input type="date" id="tarih" required>
+      <textarea id="not" placeholder="Bir anı veya not ekle (isteğe bağlı)" rows="2"></textarea>
+      <button type="submit">➕ Ekle</button>
+    </form>
+
+    <section id="liste" class="liste"></section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
